@@ -6,21 +6,27 @@
 
 ## 目录
 
-[第一章](./半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.html)
 
-[第二章](./半吊子画pcb教程---第二章矩阵的排布.html)
 
-[第三章](./半吊子画pcb教程---第三章 原理图的绘制.html)
+[第一章：pcb配列确定和外框文件制作](./半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.html)
 
-[第四章](./半吊子画pcb教程---第四章 生成pcb和元件的摆放.html)
+[第二章：矩阵的排布](./半吊子画pcb教程---第二章矩阵的排布.html)
 
-[第五章](./半吊子画pcb教程---第五章 PCB 布线.html)
+[第三章：原理图的绘制](./半吊子画pcb教程---第三章 原理图的绘制.html)
 
-[第六章](./半吊子画pcb教程---第六章 pcb生产.html)
+[第四章：生成pcb和元件的摆放](./半吊子画pcb教程---第四章 生成pcb和元件的摆放.html)
+
+[第五章：PCB 布线](./半吊子画pcb教程---第五章 PCB 布线.html)
+
+[第六章：pcb生产](./半吊子画pcb教程---第六章 pcb生产.html)
+
+
+
+****
 
 ## 预览
 
-![image-20210830115421856](C:\Users\Sets3n\Downloads\pcb教程\github\xz60\index.assets\image-20210830115421856.png)
+![image-20210830115421856](md/index.assets\image-20210830115421856.png)
 
-![image-20210830115442636](C:\Users\Sets3n\Downloads\pcb教程\github\xz60\index.assets\image-20210830115442636.png)
+![image-20210830115442636](md/index.assets\image-20210830115442636.png)
 

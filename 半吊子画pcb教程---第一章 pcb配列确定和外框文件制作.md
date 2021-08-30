@@ -15,7 +15,7 @@
 
 1. 首先让我们来制作好我们需要的配列，打开配列生成网站[www.keyboard-layout-editor.com](http://www.keyboard-layout-editor.com/)像下面这样操作，因为我们需要的是60配列
 
-![image](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image.png)
+![image](半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image.png)
 
 2. 完成之后如下图所示：
 
@@ -23,7 +23,7 @@
 
 3. 因为我们要兼容hhkb配列，所以添加两个键并将其中一个改成1.75 当作shift，移动按键需需要选中需要移动的键，使用方向键进行移动。其他同样如此，比如hhkb分裂的Backspace键。增加ISO配列也如此操作即可，分裂空格也如此
 
-   ![image (2)](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image (2).png)
+   ![image (2)](半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image (2).png)
 
 4. 点这个小箭头，还可以添加其他特殊按键。
 
@@ -35,7 +35,7 @@
 
 1. 打开由Ai03制作的定位板生成网站，[https://kbplate.ai03.com](https://kbplate.ai03.com/)并将源数据粘贴进去，然后选择好自己需要的参数，比如轴体类型和定位板的r角等等。点击下方的“GENERATE PLATE”来生成定位板dxf文件。等待一下就下载好了。
 
-   ![image (6)](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image (6).png)
+   ![image (6)](半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image (6).png)
 
 ## 操作CAXA修改成我们想要的样子
 
@@ -48,7 +48,7 @@
 
    3. 鼠标滚轮调整图纸预览大小，点上面的常用可以对图纸进行修改和绘制画直线等操作，点一下直线直接在图纸上画就可以了，操作方式于微信截图操作差不多。
 
-      ![image-20210818104945194](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818104945194.png)
+      ![image-20210818104945194](md/半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818104945194.png)
 
    4. 接下来我们画个c口的小突起
 
@@ -56,41 +56,41 @@
 
    6. 。
 
-      ![image-20210818111525759](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818111525759.png)
+      ![image-20210818111525759](md/半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818111525759.png)
 
       ​	
 
    7. 首先确定ESC和数字1之间的中间位置，点直线，然后从esc的右上顶点绘制一条线到1键左上顶点，绘制完成后依然在绘制模式，我们点一下鼠标右键或esc键来终止绘制，直线绘制完成。
 
-      ![image-20210818110416585](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818110416585.png)
+      ![image-20210818110416585](md/半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818110416585.png)
 
    8. 我们再次绘制直线，在刚刚绘制线段的中点位置，此时会自动捕捉中点，然后向上画直线，一直画到刚才的平行线上。
 
-      ![image-20210818111716610](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818111716610.png)
+      ![image-20210818111716610](md/半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818111716610.png)
 
    9. 然后同样用平行线的方法给这条线向左向右各绘制一条平行的竖线，距离输入5.
 
-      ![image-20210818111940988](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818111940988.png)
+      ![image-20210818111940988](md/半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818111940988.png)
 
    10. 然后我们删除掉我们不需要的线段，留下这两条竖线，并将竖线调整起始位置
 
-      ![image-20210818112250269](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818112250269.png)
+      ![image-20210818112250269](md/半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818112250269.png)
 
    11. 打断这条线
 
-       ![image-20210818112549584](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818112549584.png)
+       ![image-20210818112549584](md/半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818112549584.png)
 
    12. 将打断后不用的线段删除掉，把竖线的上部起始位置用直线连接起来，然后我们用圆角工具将突起块美化一下
 
-       ![image-20210818112919211](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818112919211.png)
+       ![image-20210818112919211](md/半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818112919211.png)
 
-       ![image-20210818113134736](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818113134736.png)
+       ![image-20210818113134736](md/半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818113134736.png)
 
-       ![image-20210818113211614](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818113211614.png)
+       ![image-20210818113211614](md/半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818113211614.png)
 
    13. 绘制结束后点击左上 “菜单” -- >“文件” --> “另存为” 到2020版本的dxf文件中（越老版本兼容性越好），这个pcb我就叫他 “瞎整60”，取名 “xz60” 好了
 
-       ![image-20210818191924781](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818191924781.png)
+       ![image-20210818191924781](md/半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210818191924781.png)
 
 ## 制作pcb边框层
 
@@ -100,13 +100,13 @@
 
 2. caxa中选中所有边框，复制，然后新建一个空白的文件，将边框粘贴进去。然后我们将边框的四个角都修改成圆弧。边框文件就制作好了。但是我们因为做的是标准60，还差螺丝孔位。
 
-   ![image-20210820195054025](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210820195054025.png)
+   ![image-20210820195054025](md/半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210820195054025.png)
 
    
 
-   ![image-20210820195124056](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210820195124056.png)
+   ![image-20210820195124056](md/半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210820195124056.png)
 
-   ![image-20210820195317415](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210820195317415.png)
+   ![image-20210820195317415](md/半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210820195317415.png)
 
 3. 板子边框层就制作好了。
 
@@ -116,7 +116,7 @@
 
 **GH60板子的USB孔中线在左上安装孔7mm距离的位置，上面绘制的非GH60 C口需要调整位置**
 
-![img](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\LQXco3J.png)
+![img](md/半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\LQXco3J.png)
 
-​	![image-20210821124333288](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210821124333288.png)
+​	![image-20210821124333288](md/半吊子画pcb教程---第一章 pcb配列确定和外框文件制作.assets\image-20210821124333288.png)
 

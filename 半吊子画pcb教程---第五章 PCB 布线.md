@@ -22,41 +22,41 @@ B：切换到底层（bottom）
 
 1. 在设计规则里我们可以预设线条的宽度，过孔大小，间距等，可以看到默认值是0.254，一般情况下我们会设置VCC、+5V、GND这种线的宽度为0.318。所以点新增增加一个0.318线宽的规则。
 
-   ![image-20210825170552159](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210825170552159.png)
+   ![image-20210825170552159](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210825170552159.png)
    	
-   ![image-20210825170649196](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210825170649196.png)
+   ![image-20210825170649196](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210825170649196.png)
    	
-   ![image-20210825171021593](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210825171021593.png)
+   ![image-20210825171021593](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210825171021593.png)
 
 ## 布线
 
 1. 首先按下W，光标变成红色十字线，点击焊盘开始绘制，绘制布线的时候会有指示线，我们按指示线绘制即可完成布线。随心所欲，想怎么画就怎么画。
 
-   ![image-20210825171646476](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210825171646476.png)
+   ![image-20210825171646476](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210825171646476.png)
 
 2. 有时候我们绘制的线不尽如人意，所以偶尔要调整布线。让布线看起来更美观一些。像下图这种，我们选中不如意的布线，然后从中间往下拖动到我们满意为止。我们先画好`A6`、`B6`和`A7`、`B7`的连接线，实现了`TypeC`的正反插。也是连接主控`D+`和`D-`引脚的。
 
-   ![image-20210825172024133](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210825172024133.png)
+   ![image-20210825172024133](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210825172024133.png)
 
-   ![image-20210825172055381](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210825172055381.png)
+   ![image-20210825172055381](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210825172055381.png)
 
 3. 接下来我们对`TypeC`口的`GND`进行连线。在`A5`和`B5`连接5.1k电阻的时候，记得给`+5V`预留过孔空间。布线最好按45度角走线，原则上是这样说。
 
-   ![image-20210825184136539](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210825184136539.png)
+   ![image-20210825184136539](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210825184136539.png)
 
 4. 接下来我们布线所有得轴座，横竖矩阵相对来说比较好绘制，我们将COL画在顶层，将ROW画在底层。COL因为要画在顶层，所以每个焊盘都要绘制过孔。当我们遇到难以布线的地方可以使用其他类型的布线，比如圆弧等。在右边的编辑区可以选择。
 
-   ![image-20210826184523194](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210826184523194.png)
+   ![image-20210826184523194](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210826184523194.png)
 
-   ![image-20210826190008545](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210826190008545.png)
+   ![image-20210826190008545](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210826190008545.png)
 
 5. 布线过程中，我们会发现一些主控的引脚存在一些分配不合理的问题。我们可以随时调整。比如下图，col8引脚分配到了主控下面，capsled引脚分配的过于靠右，导致布线过于复杂，出现这种问题，我们可以适当调整，比如将col8分配到最近的1号引脚，就是E6引脚，然后将capsled分配给到左边的32号引脚。调整的时候记得先修改原理图，然后保存原理图后才能从原理图里更新pcb就可以了。
 
-   ![image-20210827163352328](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827163352328.png)
+   ![image-20210827163352328](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827163352328.png)
 
-   ![image-20210827163954380](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827163954380.png)
+   ![image-20210827163954380](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827163954380.png)
 
-   ![image-20210827164046874](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827164046874.png)
+   ![image-20210827164046874](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827164046874.png)
 
 ## 错误检查
 
@@ -64,15 +64,15 @@ B：切换到底层（bottom）
 
 我一共有两个错误：1.多画了一个过孔，没有布线。2.TypeC另一个+5V的引脚没有布线。需要对错误一一修改，之后才能制作Gerber文件，否则做出来网络错误，会导致pcb板不能使用。
 
-![image-20210827173213025](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827173213025.png)
+![image-20210827173213025](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827173213025.png)
 
-![image-20210827173115315](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827173115315.png)
+![image-20210827173115315](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827173115315.png)
 
-![image-20210827173619730](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827173619730.png)
+![image-20210827173619730](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827173619730.png)
 
-![image-20210827173524838](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827173524838.png)
+![image-20210827173524838](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827173524838.png)
 
-![image-20210827173830107](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827173830107.png)
+![image-20210827173830107](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827173830107.png)
 
 ## 覆铜
 
@@ -80,11 +80,11 @@ B：切换到底层（bottom）
 
 1. 点击工具栏里的覆铜选项，在弹出窗口中选择GND（双层板如无特殊需求一般都用GND）在C口需要覆铜位置画个闭合的图行，我这里画的是个矩形。当图形闭合后，右击鼠标，代表绘制完成，覆铜会自动填充完毕。晶振处也是一样操作。
 
-   ![image-20210827185115200](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827185115200.png)
+   ![image-20210827185115200](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827185115200.png)
 
-   ![image-20210827185205456](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827185205456.png)
+   ![image-20210827185205456](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827185205456.png)
 
-   ![image-20210827185227396](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827185227396.png)
+   ![image-20210827185227396](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827185227396.png)
 
 ## pcb美化与功能性加强
 
@@ -92,31 +92,31 @@ B：切换到底层（bottom）
 
 1. 给螺丝孔加固一下添加点覆铜，用于增加强度。首先点击工具上的圆形工具，找空地随便画个圆，右边编辑区修改线宽和半径为1.35（因为螺丝孔直径是2.25），完事后选中复制参考点是圆心，粘贴出来俩圆，修改其中一个为底层，一个为顶层。将两个圆重叠，然后全选俩圆的复合体，复制，参考点圆心。粘贴到螺丝孔上。就可以了。如果需要开窗，就再次复制圆圆形，粘贴为一个顶层阻焊层，一个底层阻焊层，合并到一起。点击工具栏的3D预览效果。
 
-   ![image-20210827191818380](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827191818380.png)
+   ![image-20210827191818380](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827191818380.png)
 
-   ![image-20210827191912210](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827191912210.png)
+   ![image-20210827191912210](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827191912210.png)
 
 2. 接下来找地方添加个logo，点击文件-->导入-->导入图片，导入的时候注意尺寸，以mm为单位的实际大小。
 
-   ![image-20210827192057412](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827192057412.png)
+   ![image-20210827192057412](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827192057412.png)
 
-   ![image-20210827192133912](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827192133912.png)
+   ![image-20210827192133912](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827192133912.png)
 
    
 
-3. 导入后默认在顶层，我们复制一下，将其复制品修改为顶层阻焊层，并将两个图案合并，放置在pcb上面，就能达到下面的效果了。![image-20210827192506798](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827192506798.png)
+3. 导入后默认在顶层，我们复制一下，将其复制品修改为顶层阻焊层，并将两个图案合并，放置在pcb上面，就能达到下面的效果了。![image-20210827192506798](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827192506798.png)
 
 4. 同样的方法我们再来添加几个logo，背面正面只是顶层和底层的区别。
 
-   ![image-20210827193739264](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827193739264.png)
+   ![image-20210827193739264](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210827193739264.png)
 
 5. 同的方法在做到底层就是在背面的logo，我们来画个板子的名成。
 
-   ![image-20210828153619039](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210828153619039.png)
+   ![image-20210828153619039](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210828153619039.png)
 
 6. 如果导入图片的时候选择反转，可以达到镂空的效果。
 
-   ![image-20210828154315513](C:\Users\Sets3n\Downloads\pcb教程\半吊子画pcb教程---第五章 PCB 布线.assets\image-20210828154315513.png)
+   ![image-20210828154315513](md/半吊子画pcb教程---第五章 PCB 布线.assets\image-20210828154315513.png)
 
    
 
